@@ -10,8 +10,8 @@ async function getFact(favNum) {
     `${BASE_URL}${favNum}?json`,
   );
 
-  // return resp.data
-  populateFacts([resp.data.text]);
+  return resp.data
+  // populateFacts([resp.data.text]);
 }
 
 
